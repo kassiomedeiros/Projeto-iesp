@@ -1,0 +1,11 @@
+<serializer>
+    <class name="Domain\Mpdel\Candidato">
+        <proerty name="nome" type="string" groups="default" />
+        <proerty name="email" type="string" groups="default" />
+        <proerty name="telefone" type="string" groups="default" />
+        <proerty name="curriculo" type="string" groups="default" />
+        <proerty name="habilidadesTecnicas" type="string" groups="default" />
+            <type><![CDATA[ArrayCollection<Domain\Model\HabilidadeTecnica>]]>
+            </type>
+    </class>
+</serializer>
